@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "category": "api",
+  "patterns": [
+    {
+      "id": "6d25dbcc61cc687c",
+      "subcategory": "laravel",
+      "name": "Laravel API Patterns Detector",
+      "description": "Learns API patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/laravel-api-semantic",
+          "patternId": "api/laravel-api-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.16,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 4,
+        "score": 0.8999999999999999,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Action.php",
+          "line": 7,
+          "column": 24
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 7,
+          "column": 18
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 8,
+          "column": 24
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 9,
+          "column": 14
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 9,
+          "column": 24
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 10,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 8,
+          "column": 14
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 8,
+          "column": 38
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 8,
+          "column": 34
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 7,
+          "column": 24
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 8,
+          "column": 32
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 7,
+          "column": 43
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 8,
+          "column": 44
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 13,
+          "column": 9
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 14,
+          "column": 9
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.341Z",
+        "approvedAt": "2026-02-01T18:15:08.341Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "8b12e8b38518186c",
+      "subcategory": "laravel",
+      "name": "Laravel API Patterns Detector",
+      "description": "Learns API patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/laravel-api-semantic",
+          "patternId": "api/laravel-api-semantic/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.04,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 18,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 17,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 12,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 13,
+          "column": 21
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.358Z",
+        "approvedAt": "2026-02-01T18:15:08.358Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.715Z",
+  "checksum": "eed9fc7541e771a7"
+}

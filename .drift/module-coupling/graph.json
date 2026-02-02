@@ -1,0 +1,115 @@
+{
+  "modules": {
+    "laravel-api/assets/templates/Payload.php": {
+      "path": "laravel-api/assets/templates/Payload.php",
+      "imports": [],
+      "importedBy": [],
+      "exports": [],
+      "metrics": {
+        "Ca": 0,
+        "Ce": 0,
+        "instability": 0,
+        "abstractness": 0,
+        "distance": 1
+      },
+      "role": "balanced",
+      "isEntryPoint": false,
+      "isLeaf": true
+    },
+    "vueuse/scripts/generate-composables.ts": {
+      "path": "vueuse/scripts/generate-composables.ts",
+      "imports": [],
+      "importedBy": [],
+      "exports": [],
+      "metrics": {
+        "Ca": 0,
+        "Ce": 0,
+        "instability": 0,
+        "abstractness": 0,
+        "distance": 1
+      },
+      "role": "balanced",
+      "isEntryPoint": false,
+      "isLeaf": true
+    },
+    "laravel-api/assets/templates/Controller.php": {
+      "path": "laravel-api/assets/templates/Controller.php",
+      "imports": [],
+      "importedBy": [],
+      "exports": [],
+      "metrics": {
+        "Ca": 0,
+        "Ce": 0,
+        "instability": 0,
+        "abstractness": 0,
+        "distance": 1
+      },
+      "role": "balanced",
+      "isEntryPoint": false,
+      "isLeaf": true
+    },
+    "reka-ui/scripts/generate-components.ts": {
+      "path": "reka-ui/scripts/generate-components.ts",
+      "imports": [],
+      "importedBy": [],
+      "exports": [],
+      "metrics": {
+        "Ca": 0,
+        "Ce": 0,
+        "instability": 0,
+        "abstractness": 0,
+        "distance": 1
+      },
+      "role": "balanced",
+      "isEntryPoint": false,
+      "isLeaf": true
+    },
+    "laravel-api/assets/templates/Model.php": {
+      "path": "laravel-api/assets/templates/Model.php",
+      "imports": [],
+      "importedBy": [],
+      "exports": [],
+      "metrics": {
+        "Ca": 0,
+        "Ce": 0,
+        "instability": 0,
+        "abstractness": 0,
+        "distance": 1
+      },
+      "role": "balanced",
+      "isEntryPoint": false,
+      "isLeaf": true
+    },
+    "laravel-api/assets/templates/FormRequest.php": {
+      "path": "laravel-api/assets/templates/FormRequest.php",
+      "imports": [],
+      "importedBy": [],
+      "exports": [],
+      "metrics": {
+        "Ca": 0,
+        "Ce": 0,
+        "instability": 0,
+        "abstractness": 0,
+        "distance": 1
+      },
+      "role": "balanced",
+      "isEntryPoint": false,
+      "isLeaf": true
+    }
+  },
+  "edges": [],
+  "cycles": [],
+  "metrics": {
+    "totalModules": 6,
+    "totalEdges": 0,
+    "cycleCount": 0,
+    "avgInstability": 0,
+    "avgDistance": 1,
+    "zoneOfPain": [],
+    "zoneOfUselessness": [],
+    "hotspots": [],
+    "isolatedModules": []
+  },
+  "generatedAt": "2026-02-01T18:56:25.223Z",
+  "projectRoot": "/home/vhpm18/Escritorio/SKILL"
+}

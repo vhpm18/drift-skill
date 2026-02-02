@@ -1,0 +1,60 @@
+{
+  "version": "0.9.45",
+  "schemaVersion": "2.0.0",
+  "createdAt": "2026-02-01T18:15:09.414Z",
+  "updatedAt": "2026-02-01T18:15:09.418Z",
+  "project": {
+    "id": "d566a303-e9b4-4dc4-9ca7-573d0d4c1da9",
+    "name": "laravel-api",
+    "rootPath": "/home/vhpm18/Escritorio/SKILL/laravel-api"
+  },
+  "baseline": {
+    "scanId": "8d536c5e",
+    "scannedAt": "2026-02-01T18:15:09.414Z",
+    "fileCount": 5,
+    "patternCount": 25,
+    "approvedCount": 14,
+    "categories": {
+      "data-access": 23,
+      "structural": 27,
+      "api": 42,
+      "performance": 2,
+      "security": 19,
+      "config": 4
+    },
+    "checksum": "9b8cf6789000123c"
+  },
+  "features": {
+    "callGraph": {
+      "enabled": true,
+      "builtAt": "2026-02-01T18:15:09.414Z"
+    },
+    "testTopology": {
+      "enabled": true,
+      "builtAt": "2026-02-01T18:15:09.414Z"
+    },
+    "coupling": {
+      "enabled": false
+    },
+    "dna": {
+      "enabled": false
+    },
+    "memory": {
+      "enabled": false
+    },
+    "boundaries": {
+      "enabled": false
+    }
+  },
+  "settings": {
+    "autoApproveThreshold": 0.85,
+    "autoApproveEnabled": true
+  },
+  "history": [
+    {
+      "action": "setup_complete",
+      "timestamp": "2026-02-01T18:15:09.414Z",
+      "details": "Initial setup: 25 patterns, 14 approved"
+    }
+  ]
+}

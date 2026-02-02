@@ -29,6 +29,8 @@ Las Skills siguen el formato estándar de [Drift Skills](https://github.com/dadb
 | **[vue](./vue/SKILL.md)** | Build Vue 3 components, composables, and utilities using Composition API patterns. Provides props/emits best practices, reactive destructuring guidance, VueUse integration, TypeScript patterns, and testing practices. | 3h | frontend |
 | **[reka-ui](./reka-ui/SKILL.md)** | Build accessible Vue 3 components using Reka UI (headless component primitives). WAI-ARIA compliant. Provides component API, accessibility patterns, composition (asChild), controlled/uncontrolled state, virtualization, and styling integration. | 3h | frontend |
 | **[vueuse](./vueuse/SKILL.md)** | Use VueUse composables for reactive utilities (state, browser APIs, sensors, network, animations). Check VueUse before writing custom composables - most patterns already implemented. | 2h | frontend |
+| **[frontend-design](./frontend-design/SKILL.md)** | Design distinctive, production-grade frontend interfaces with bold, non-generic aesthetics and high UX polish. Use for building components, pages or full apps with strong visual direction. | 3h | frontend-design |
+| **[web-design-guidelines](./web-design-guidelines/SKILL.md)** | Review UI code against Vercel Web Interface Guidelines to catch accessibility, UX, and implementation issues, producing concise file:line audits. | 3h | frontend |
 
 ### Nuxt Modules & Integrations
 

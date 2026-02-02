@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "category": "data-access",
+  "patterns": [
+    {
+      "id": "3bb397e04ba2063e",
+      "subcategory": "orm-model",
+      "name": "ORM Model Detector",
+      "description": "Detects ORM model/entity definitions to extract table mappings",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "data-access/boundaries/orm-model",
+          "patternId": "data-access/boundaries/orm-model/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.03,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.9199999999999999,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Action.php",
+          "line": 8,
+          "column": 9
+        },
+        {
+          "file": "assets/templates/Action.php",
+          "line": 8,
+          "column": 17
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 9,
+          "column": 34
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.376Z",
+        "approvedAt": "2026-02-01T18:15:08.376Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "18edc3cb460fa55a",
+      "subcategory": "laravel",
+      "name": "Laravel Eloquent Patterns Detector",
+      "description": "Learns Eloquent ORM patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "data-access/laravel-eloquent-semantic",
+          "patternId": "data-access/laravel-eloquent-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.06,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.8533333333333333,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Action.php",
+          "line": 8,
+          "column": 9
+        },
+        {
+          "file": "assets/templates/Action.php",
+          "line": 8,
+          "column": 17
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 9,
+          "column": 34
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 7,
+          "column": 25
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 8,
+          "column": 25
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 9,
+          "column": 25
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.395Z",
+        "approvedAt": "2026-02-01T18:15:08.395Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.656Z",
+  "checksum": "517944a3bba0934f"
+}

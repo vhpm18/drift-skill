@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "category": "performance",
+  "patterns": [
+    {
+      "id": "d7ca7ac5803f756b",
+      "subcategory": "laravel",
+      "name": "Laravel Performance Patterns Detector",
+      "description": "Learns performance patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "performance/laravel-performance-semantic",
+          "patternId": "performance/laravel-performance-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 9,
+          "column": 14
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "122e038f061a09c7",
+      "subcategory": "laravel",
+      "name": "Laravel Async Patterns Detector",
+      "description": "Learns async patterns (jobs, events, queues) from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "async/laravel-async-semantic",
+          "patternId": "async/laravel-async-semantic/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 13,
+          "column": 21
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.680Z",
+  "checksum": "d994772ec34c9266"
+}

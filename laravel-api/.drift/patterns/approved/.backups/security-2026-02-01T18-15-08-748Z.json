@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0",
+  "category": "security",
+  "patterns": [
+    {
+      "id": "f0c912128bb9c686",
+      "subcategory": "laravel",
+      "name": "Laravel Security Patterns Detector",
+      "description": "Learns security patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "security/laravel-security-semantic",
+          "patternId": "security/laravel-security-semantic/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.8866666666666666,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 17,
+          "column": 21
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.424Z",
+        "approvedAt": "2026-02-01T18:15:08.424Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "4bdc56b69f4cd190",
+      "subcategory": "laravel",
+      "name": "Laravel Validation Patterns Detector",
+      "description": "Learns validation patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "validation/laravel-validation-semantic",
+          "patternId": "validation/laravel-validation-semantic/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.04,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 12,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 17,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 13,
+          "column": 32
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.473Z",
+        "approvedAt": "2026-02-01T18:15:08.473Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "f46f35fa27cdd583",
+      "subcategory": "sql-injection",
+      "name": "SQL Injection Detector",
+      "description": "Learns SQL injection prevention patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "security/sql-injection",
+          "patternId": "security/sql-injection/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.03,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Model.php",
+          "line": 7,
+          "column": 16
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 8,
+          "column": 16
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 9,
+          "column": 16
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.521Z",
+        "approvedAt": "2026-02-01T18:15:08.521Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "4c69118c389e76dd",
+      "subcategory": "laravel",
+      "name": "Laravel Security Patterns Detector",
+      "description": "Learns security patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "security/laravel-security-semantic",
+          "patternId": "security/laravel-security-semantic/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Model.php",
+          "line": 16,
+          "column": 16
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.569Z",
+        "approvedAt": "2026-02-01T18:15:08.569Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.720Z",
+  "checksum": "edadd13e85e6857f"
+}

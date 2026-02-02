@@ -1,0 +1,19 @@
+{
+  "lastUpdated": "2026-02-01T18:15:09.414Z",
+  "patterns": {
+    "total": 25,
+    "byStatus": {
+      "discovered": 11,
+      "approved": 14,
+      "ignored": 0
+    },
+    "byCategory": {
+      "data-access": 23,
+      "structural": 27,
+      "api": 42,
+      "performance": 2,
+      "security": 19,
+      "config": 4
+    }
+  }
+}

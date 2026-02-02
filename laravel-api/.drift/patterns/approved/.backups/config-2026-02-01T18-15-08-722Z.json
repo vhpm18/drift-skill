@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "category": "config",
+  "patterns": [
+    {
+      "id": "c2913aec3160a116",
+      "subcategory": "laravel",
+      "name": "Laravel Config Patterns Detector",
+      "description": "Learns configuration patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "config/laravel-config-semantic",
+          "patternId": "config/laravel-config-semantic/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 12,
+          "column": 21
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.623Z",
+        "approvedAt": "2026-02-01T18:15:08.623Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "2b3d7dc5ce27a35b",
+      "subcategory": "laravel",
+      "name": "Laravel Config Patterns Detector",
+      "description": "Learns configuration patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "config/laravel-config-semantic",
+          "patternId": "config/laravel-config-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.03,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Model.php",
+          "line": 7,
+          "column": 16
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 8,
+          "column": 16
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 9,
+          "column": 16
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.672Z",
+        "approvedAt": "2026-02-01T18:15:08.672Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.693Z",
+  "checksum": "35eeefcbe32025e7"
+}

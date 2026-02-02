@@ -1,0 +1,6929 @@
+{
+  "version": "1.0.0",
+  "category": "testing",
+  "patterns": [
+    {
+      "id": "15077b1d11f06d9f",
+      "subcategory": "test-structure",
+      "name": "Test Structure Detector",
+      "description": "Learns test structure patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-structure",
+          "patternId": "testing/test-structure/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.41,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 16,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-composables.md",
+          "line": 87,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 9,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 131,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 132,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 133,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 134,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 135,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 142,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/references/router.md",
+          "line": 124,
+          "column": 8,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 27,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 28,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 29,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 289,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 289,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 68,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-auth.md",
+          "line": 3,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 26,
+          "isOutlier": true,
+          "confidence": 0.8999999999999999,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 149,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 184,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-geolocation.md",
+          "line": 3,
+          "column": 27,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vueuse/composables/use-memoize.md",
+          "line": 3,
+          "column": 60,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vueuse/composables/use-memoize.md",
+          "line": 3,
+          "column": 73,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-parallax.md",
+          "line": 3,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-preferred-languages.md",
+          "line": 3,
+          "column": 31,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vueuse/composables/use-screen-orientation.md",
+          "line": 3,
+          "column": 34,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 19,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 133,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 145,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 148,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 259,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 270,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 189,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.413Z",
+        "lastSeen": "2026-02-01T19:21:39.052Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-structure"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.052Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "d762d5be67220420",
+      "subcategory": "test-structure",
+      "name": "Test Structure Detector",
+      "description": "Learns test structure patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-structure",
+          "patternId": "testing/test-structure/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.5,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 31,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "DRIFT_INTEGRATION.md",
+          "line": 67,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "README.md",
+          "line": 181,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 357,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 8,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 8,
+          "column": 66,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 112,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 393,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 180,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 82,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 82,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 62,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 44,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 44,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 44,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 87,
+          "column": 128,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 28,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 73,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 37,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vueuse/composables/on-element-removal.md",
+          "line": 3,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-before-mount.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-before-unmount.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-mounted.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-scope-dispose.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-unmounted.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-active-element.md",
+          "line": 28,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-devices-list.md",
+          "line": 25,
+          "column": 85,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-draggable.md",
+          "line": 39,
+          "column": 175,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-focus.md",
+          "line": 29,
+          "column": 79,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-intersection-observer.md",
+          "line": 38,
+          "column": 137,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-ref-history.md",
+          "line": 32,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-ref-history.md",
+          "line": 32,
+          "column": 126,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-storage.md",
+          "line": 35,
+          "column": 138,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-vibrate.md",
+          "line": 20,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-vmodel.md",
+          "line": 26,
+          "column": 85,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vueuse/composables/use-web-notification.md",
+          "line": 39,
+          "column": 83,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 172,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 173,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 174,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 175,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 176,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 244,
+          "column": 75,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 257,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 227,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.363Z",
+        "lastSeen": "2026-02-01T19:21:39.156Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-structure"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.156Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "87f6c6a8b6262097",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 34,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "DRIFT_INTEGRATION.md",
+          "line": 67,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "README.md",
+          "line": 181,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 8,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 8,
+          "column": 66,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 112,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 357,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 393,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 62,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 44,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 44,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 44,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 87,
+          "column": 128,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 28,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 73,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 37,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 8,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/composables/on-element-removal.md",
+          "line": 3,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/on-start-typing.md",
+          "line": 3,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/on-start-typing.md",
+          "line": 3,
+          "column": 97,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-before-mount.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-before-unmount.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-mounted.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-scope-dispose.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/try-on-unmounted.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-active-element.md",
+          "line": 28,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-battery.md",
+          "line": 3,
+          "column": 183,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-battery.md",
+          "line": 3,
+          "column": 310,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-devices-list.md",
+          "line": 25,
+          "column": 85,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-draggable.md",
+          "line": 39,
+          "column": 175,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fetch.md",
+          "line": 25,
+          "column": 199,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fetch.md",
+          "line": 25,
+          "column": 216,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-focus.md",
+          "line": 29,
+          "column": 79,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-intersection-observer.md",
+          "line": 38,
+          "column": 137,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-intersection-observer.md",
+          "line": 39,
+          "column": 142,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-media-query.md",
+          "line": 3,
+          "column": 131,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-ref-history.md",
+          "line": 32,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-ref-history.md",
+          "line": 32,
+          "column": 126,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-storage.md",
+          "line": 35,
+          "column": 138,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-user-media.md",
+          "line": 35,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-vibrate.md",
+          "line": 20,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-vmodel.md",
+          "line": 26,
+          "column": 85,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-web-notification.md",
+          "line": 39,
+          "column": 83,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 172,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 173,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 174,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 175,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 176,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 244,
+          "column": 75,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 257,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 357,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 357,
+          "column": 86,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 357,
+          "column": 114,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 227,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.363Z",
+        "lastSeen": "2026-02-01T19:21:39.292Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.292Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "484fadd9992e722b",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.64,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 13,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 131,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 132,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 133,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 134,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 135,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 142,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 9,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 68,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-auth.md",
+          "line": 3,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 149,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fullscreen.md",
+          "line": 3,
+          "column": 184,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-geolocation.md",
+          "line": 3,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-memoize.md",
+          "line": 3,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-memoize.md",
+          "line": 3,
+          "column": 73,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-parallax.md",
+          "line": 3,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-preferred-languages.md",
+          "line": 3,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-screen-orientation.md",
+          "line": 3,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 19,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 133,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 145,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 148,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 259,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 270,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 189,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.419Z",
+        "lastSeen": "2026-02-01T19:21:39.400Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.400Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "b9508590b7ad577c",
+      "subcategory": "test-file-naming",
+      "name": "Test File Naming Detector",
+      "description": "Learns test file naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-file-naming",
+          "patternId": "testing/test-file-naming/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.59,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 20,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 29,
+          "column": 229,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "README.md",
+          "line": 29,
+          "column": 191,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 495,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 170,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 222,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 13,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.7561111111111111
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 45,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.7561111111111111
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 45,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.7561111111111111
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 36,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/site-config.md",
+          "line": 92,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 311,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 212,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 305,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 174,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 83,
+          "column": 96,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 214,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 37,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 168,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 208,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vueuse/composables/use-async-validator.md",
+          "line": 11,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-axios.md",
+          "line": 11,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-change-case.md",
+          "line": 11,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-cookies.md",
+          "line": 12,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-drauu.md",
+          "line": 13,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-focus-trap.md",
+          "line": 12,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-fuse.md",
+          "line": 11,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-idbkeyval.md",
+          "line": 11,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-jwt.md",
+          "line": 11,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-qrcode.md",
+          "line": 11,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-sortable.md",
+          "line": 12,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.375Z",
+        "lastSeen": "2026-02-01T19:21:39.511Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-file-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.511Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "4efd364282202ed6",
+      "subcategory": "test-file-naming",
+      "name": "Test File Naming Detector",
+      "description": "Learns test file naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-file-naming",
+          "patternId": "testing/test-file-naming/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.24,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 6,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 181,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 357,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 87,
+          "column": 128,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 28,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vueuse/composables/use-intersection-observer.md",
+          "line": 38,
+          "column": 137,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.375Z",
+        "lastSeen": "2026-02-01T19:21:39.616Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-file-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.616Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "b8f7d18291dd64de",
+      "subcategory": "test-co-location",
+      "name": "Test Co-Location Detector",
+      "description": "Learns test co-location patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-co-location",
+          "patternId": "testing/test-co-location/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.28,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 9,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 29,
+          "column": 229,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 495,
+          "column": 26,
+          "isOutlier": true,
+          "confidence": 0.9199999999999999,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 170,
+          "isOutlier": false,
+          "confidence": 0.8066666666666666
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 222,
+          "isOutlier": false,
+          "confidence": 0.8066666666666666
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 13,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 45,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 36,
+          "column": 24,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/site-config.md",
+          "line": 92,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 311,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 212,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 305,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 37,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 168,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 208,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.375Z",
+        "lastSeen": "2026-02-01T19:21:39.719Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-co-location"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.719Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "0c8dc1851e203513",
+      "subcategory": "test-co-location",
+      "name": "Test Co-Location Detector",
+      "description": "Learns test co-location patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-co-location",
+          "patternId": "testing/test-co-location/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.34,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 6,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 181,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.9199999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 355,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.9199999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 357,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.9199999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 24,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 87,
+          "column": 128,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 28,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vueuse/composables/use-intersection-observer.md",
+          "line": 38,
+          "column": 137,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.375Z",
+        "lastSeen": "2026-02-01T19:21:39.821Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-co-location"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.821Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "3af9d51da0e6043a",
+      "subcategory": "test-structure",
+      "name": "Test Structure Detector",
+      "description": "Learns test structure patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-structure",
+          "patternId": "testing/test-structure/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.35,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 23,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 29,
+          "column": 229,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "laravel-api/references/architecture.md",
+          "line": 81,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 495,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 32,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-content/references/querying.md",
+          "line": 219,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 268,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8241666666666667
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 170,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 222,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 13,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 45,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 47,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 47,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 47,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 45,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 36,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/site-config.md",
+          "line": 92,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 311,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 212,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 305,
+          "isOutlier": false,
+          "confidence": 0.802
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 140,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 57,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 37,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 168,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 208,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 32,
+          "column": 85,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-extracted-observable.md",
+          "line": 3,
+          "column": 102,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 198,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vueuse/composables/use-observable.md",
+          "line": 3,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-subscription.md",
+          "line": 3,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-timeout-poll.md",
+          "line": 3,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-vmodel.md",
+          "line": 25,
+          "column": 93,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 80,
+          "column": 84,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 336,
+          "column": 56,
+          "isOutlier": false,
+          "confidence": 0.76
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.375Z",
+        "lastSeen": "2026-02-01T19:21:39.930Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-structure"
+        ],
+        "approvedAt": "2026-02-01T19:21:39.930Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "252fc043f41e1cc7",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.07,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 41,
+          "column": 108,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 194,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 194,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/composables/computed-async.md",
+          "line": 18,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.376Z",
+        "lastSeen": "2026-02-01T19:21:40.040Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.040Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "b77b5855dae9f9cc",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/import"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 34,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 29,
+          "column": 229,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 3,
+          "column": 242,
+          "isOutlier": false,
+          "confidence": 0.83875
+        },
+        {
+          "file": "laravel-api/references/architecture.md",
+          "line": 81,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/architecture.md",
+          "line": 112,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 211,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 32,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 3,
+          "column": 247,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 3,
+          "column": 210,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 58,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 3,
+          "column": 260,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/querying.md",
+          "line": 219,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-content/references/querying.md",
+          "line": 217,
+          "column": 56,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 268,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 170,
+          "isOutlier": false,
+          "confidence": 0.7790909090909091
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 222,
+          "isOutlier": false,
+          "confidence": 0.7790909090909091
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 207,
+          "isOutlier": false,
+          "confidence": 0.7790909090909091
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 47,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 47,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 13,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 45,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "nuxt-seo/SKILL.md",
+          "line": 3,
+          "column": 196,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 3,
+          "column": 350,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 311,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxthub/references/wrangler-templates.md",
+          "line": 5,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 3,
+          "column": 282,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 212,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 305,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 3,
+          "column": 235,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 36,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 110,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.8014814814814815
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 140,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 140,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 57,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 317,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 37,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 168,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 208,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 32,
+          "column": 85,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 3,
+          "column": 275,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/logic-and.md",
+          "line": 11,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/logic-not.md",
+          "line": 11,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/logic-or.md",
+          "line": 11,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-extracted-observable.md",
+          "line": 3,
+          "column": 102,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-extracted-observable.md",
+          "line": 3,
+          "column": 105,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 77,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 198,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-observable.md",
+          "line": 3,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-observable.md",
+          "line": 3,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-subscription.md",
+          "line": 3,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-timeout-poll.md",
+          "line": 3,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-vmodel.md",
+          "line": 25,
+          "column": 93,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-wake-lock.md",
+          "line": 3,
+          "column": 101,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/whenever.md",
+          "line": 11,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 80,
+          "column": 84,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 336,
+          "column": 56,
+          "isOutlier": false,
+          "confidence": 0.766774193548387
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.376Z",
+        "lastSeen": "2026-02-01T19:21:40.146Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.146Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "84abe8ec972ee35d",
+      "subcategory": "test-structure",
+      "name": "Test Structure Detector",
+      "description": "Learns test structure patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-structure",
+          "patternId": "testing/test-structure/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.74,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 20,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/.drift/source-of-truth.json",
+          "line": 57,
+          "column": 27,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "High confidence outlier"
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 156,
+          "column": 12,
+          "isOutlier": true,
+          "confidence": 0.8825,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 156,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 156,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 16,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 110,
+          "column": 5,
+          "isOutlier": true,
+          "confidence": 0.92625,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 111,
+          "column": 23,
+          "isOutlier": true,
+          "confidence": 0.92625,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 112,
+          "column": 23,
+          "isOutlier": true,
+          "confidence": 0.92625,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 113,
+          "column": 26,
+          "isOutlier": true,
+          "confidence": 0.92625,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 122,
+          "column": 7,
+          "isOutlier": true,
+          "confidence": 0.92625,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 123,
+          "column": 34,
+          "isOutlier": true,
+          "confidence": 0.92625,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 123,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.92625
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 31,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "reka-ui/components/tree.md",
+          "line": 78,
+          "column": 23,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "High confidence outlier"
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 53,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 53,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 167,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 216,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 217,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 217,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 21,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.7885185185185185
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 164,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 188,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 272,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 102,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 106,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 112,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 112,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-join.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-array-join.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-array-join.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-drop-zone.md",
+          "line": 44,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-virtual-list.md",
+          "line": 15,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.381Z",
+        "lastSeen": "2026-02-01T19:21:40.253Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-structure"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.253Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "cd152297375c5b10",
+      "subcategory": "setup-teardown",
+      "name": "Setup/Teardown Detector",
+      "description": "Learns test setup/teardown patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/setup-teardown",
+          "patternId": "testing/setup-teardown/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/.drift/source-of-truth.json",
+          "line": 57,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.381Z",
+        "lastSeen": "2026-02-01T19:21:40.354Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "setup-teardown"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.354Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "62fd50d14b338edf",
+      "subcategory": "test-structure",
+      "name": "Test Structure Detector",
+      "description": "Learns test structure patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-structure",
+          "patternId": "testing/test-structure/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.68,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 13,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 50,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 386,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "laravel-api/references/architecture.md",
+          "line": 69,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 353,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 519,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 346,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 79,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 288,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 112,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 132,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 38,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 76,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 100,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 114,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 138,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 159,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 183,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 202,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 237,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 251,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 268,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 292,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 338,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9450000000000001
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 54,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 59,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 49,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 56,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 61,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 50,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 86,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 91,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 146,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 40,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 47,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 57,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 68,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 78,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 96,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 103,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 121,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 127,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 131,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 182,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 193,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 210,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 227,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 243,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 120,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 126,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 44,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 50,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 61,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 71,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 85,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 98,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 100,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 107,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 109,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 122,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 128,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 132,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 184,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 199,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 220,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 236,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 249,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8003030303030303
+        },
+        {
+          "file": "vueuse/composables/template-ref.md",
+          "line": 13,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-rtdb.md",
+          "line": 18,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.388Z",
+        "lastSeen": "2026-02-01T19:21:40.462Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-structure"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.462Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "8fcafd6f100c8de5",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.24,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 12,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 121,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 122,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 123,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 124,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 382,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 14,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 15,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 16,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 17,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 506,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 532,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 206,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 25,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 58,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "nuxt-better-auth/references/types.md",
+          "line": 39,
+          "column": 37,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "High confidence outlier"
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 221,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 83,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-seo/SKILL.md",
+          "line": 3,
+          "column": 167,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-seo/SKILL.md",
+          "line": 3,
+          "column": 280,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 3,
+          "column": 83,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 3,
+          "column": 385,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 29,
+          "column": 66,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-memoize.md",
+          "line": 3,
+          "column": 180,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-rtdb.md",
+          "line": 13,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.8825
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.388Z",
+        "lastSeen": "2026-02-01T19:21:40.564Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.564Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "6135ebe56d5d9a4b",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.6,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 10,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 50,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.83875
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 386,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.83875
+        },
+        {
+          "file": "laravel-api/references/architecture.md",
+          "line": 69,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 353,
+          "column": 27,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "High confidence outlier"
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 519,
+          "column": 16,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "High confidence outlier"
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 346,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.8226315789473684
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 49,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 54,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 59,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7276923076923076
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 120,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 126,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 40,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 47,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 57,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 68,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 78,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 96,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 103,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 121,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 127,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 131,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 182,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 193,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 210,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 227,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 243,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vueuse/composables/logic-and.md",
+          "line": 17,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/logic-not.md",
+          "line": 16,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/logic-or.md",
+          "line": 17,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/whenever.md",
+          "line": 18,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.389Z",
+        "lastSeen": "2026-02-01T19:21:40.693Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.693Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "b01add78aa4733e3",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.17,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 7,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 224,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 224,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "nuxt/references/nuxt-composables.md",
+          "line": 175,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 18,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 95,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 251,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 66,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 160,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 473,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 499,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 522,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 144,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 170,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/composables/ref-debounced.md",
+          "line": 22,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-async-state.md",
+          "line": 17,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.402Z",
+        "lastSeen": "2026-02-01T19:21:40.797Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.797Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "fb80992373752a88",
+      "subcategory": "test-file-naming",
+      "name": "Test File Naming Detector",
+      "description": "Learns test file naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-file-naming",
+          "patternId": "testing/test-file-naming/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 79,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.412Z",
+        "lastSeen": "2026-02-01T19:21:40.926Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-file-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:40.926Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "912bdbda92a1c5f5",
+      "subcategory": "test-co-location",
+      "name": "Test Co-Location Detector",
+      "description": "Learns test co-location patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-co-location",
+          "patternId": "testing/test-co-location/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 79,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.412Z",
+        "lastSeen": "2026-02-01T19:21:41.041Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-co-location"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.041Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "b80bb67f998c57e2",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/class_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.04,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 45,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 1
+        },
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 46,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 1
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.412Z",
+        "lastSeen": "2026-02-01T19:21:41.148Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.148Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "f0d4431e9d93a5cd",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.15,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 7,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-composables.md",
+          "line": 5,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 117,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 117,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 128,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 128,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 30,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 87,
+          "column": 152,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 375,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 487,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 302,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vueuse/composables/use-battery.md",
+          "line": 3,
+          "column": 402,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-drop-zone.md",
+          "line": 23,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-drop-zone.md",
+          "line": 43,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-drop-zone.md",
+          "line": 43,
+          "column": 134,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-drop-zone.md",
+          "line": 43,
+          "column": 162,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.413Z",
+        "lastSeen": "2026-02-01T19:21:41.251Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.251Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "866844515babcf59",
+      "subcategory": "setup-teardown",
+      "name": "Setup/Teardown Detector",
+      "description": "Learns test setup/teardown patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/setup-teardown",
+          "patternId": "testing/setup-teardown/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-composables.md",
+          "line": 87,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/router.md",
+          "line": 124,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.413Z",
+        "lastSeen": "2026-02-01T19:21:41.359Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "setup-teardown"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.359Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "627296e13b6826cf",
+      "subcategory": "setup-teardown",
+      "name": "Setup/Teardown Detector",
+      "description": "Learns test setup/teardown patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/setup-teardown",
+          "patternId": "testing/setup-teardown/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.44,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 7,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 288,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 112,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 132,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 38,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 76,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 100,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 114,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 138,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 159,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 183,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 202,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 237,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 251,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 268,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 292,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 338,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 50,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 86,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 91,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 146,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/template-ref.md",
+          "line": 13,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-rtdb.md",
+          "line": 18,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.414Z",
+        "lastSeen": "2026-02-01T19:21:41.466Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "setup-teardown"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.466Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "706d5e64af814f83",
+      "subcategory": "test-co-location",
+      "name": "Test Co-Location Detector",
+      "description": "Learns test co-location patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-co-location",
+          "patternId": "testing/test-co-location/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.28,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 5,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8066666666666666
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.8066666666666666
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.8066666666666666
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 16,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 21,
+          "column": 28,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 164,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 188,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 272,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.415Z",
+        "lastSeen": "2026-02-01T19:21:41.572Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-co-location"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.572Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "3ab581161babbf94",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 21,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 156,
+          "column": 12,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 156,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 156,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7790909090909091
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.7790909090909091
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.7790909090909091
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 182,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 16,
+          "column": 3,
+          "isOutlier": true,
+          "confidence": 0.7276923076923076,
+          "outlierReason": "Value below IQR lower bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 110,
+          "column": 5,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 111,
+          "column": 23,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 112,
+          "column": 23,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 113,
+          "column": 26,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 122,
+          "column": 7,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 123,
+          "column": 34,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 123,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 31,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "reka-ui/components/tree.md",
+          "line": 78,
+          "column": 23,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 53,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 53,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 167,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 182,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 216,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 217,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 217,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 164,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 188,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 272,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 102,
+          "column": 3,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 106,
+          "column": 22,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 112,
+          "column": 12,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 112,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-every.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-filter.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-find-index.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-join.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-array-join.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-array-join.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-map.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-some.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 13,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-array-unique.md",
+          "line": 17,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8109090909090909
+        },
+        {
+          "file": "vueuse/composables/use-drop-zone.md",
+          "line": 44,
+          "column": 34,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vueuse/composables/use-fetch.md",
+          "line": 22,
+          "column": 198,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-virtual-list.md",
+          "line": 15,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.415Z",
+        "lastSeen": "2026-02-01T19:21:41.689Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.689Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "5ceccc0f8b3d49dc",
+      "subcategory": "mock-patterns",
+      "name": "Mock Patterns Detector",
+      "description": "Learns mocking patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/mock-patterns",
+          "patternId": "testing/mock-patterns/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.9199999999999999,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "vue/SKILL.md",
+          "line": 31,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.9199999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.422Z",
+        "lastSeen": "2026-02-01T19:21:41.786Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "mock-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.786Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "0e94ce05fb31c5dd",
+      "subcategory": "test-file-naming",
+      "name": "Test File Naming Detector",
+      "description": "Learns test file naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-file-naming",
+          "patternId": "testing/test-file-naming/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "vue/references/testing.md",
+          "line": 13,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.98
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.423Z",
+        "lastSeen": "2026-02-01T19:21:41.896Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-file-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:41.896Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "faa00ac7e83ef0b5",
+      "subcategory": "test-co-location",
+      "name": "Test Co-Location Detector",
+      "description": "Learns test co-location patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-co-location",
+          "patternId": "testing/test-co-location/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "vue/references/testing.md",
+          "line": 13,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.9778125
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.423Z",
+        "lastSeen": "2026-02-01T19:21:42.005Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-co-location"
+        ],
+        "approvedAt": "2026-02-01T19:21:42.005Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "66e7ee36d2356e4f",
+      "subcategory": "test-structure",
+      "name": "Test Structure Detector",
+      "description": "Learns test structure patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-structure",
+          "patternId": "testing/test-structure/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "vue/references/testing.md",
+          "line": 13,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.9503030303030303
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.423Z",
+        "lastSeen": "2026-02-01T19:21:42.111Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-structure"
+        ],
+        "approvedAt": "2026-02-01T19:21:42.111Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "064fe62afc373658",
+      "subcategory": "mock-patterns",
+      "name": "Mock Patterns Detector",
+      "description": "Learns mocking patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/mock-patterns",
+          "patternId": "testing/mock-patterns/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.06,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "vue/references/testing.md",
+          "line": 194,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.746
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 194,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.746
+        },
+        {
+          "file": "vueuse/composables/computed-async.md",
+          "line": 18,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.423Z",
+        "lastSeen": "2026-02-01T19:21:42.206Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "mock-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:42.206Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "d3da3f6ad6d5daeb",
+      "subcategory": "describe-naming",
+      "name": "Describe Naming Detector",
+      "description": "Learns test describe/it naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/describe-naming",
+          "patternId": "testing/describe-naming/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.92,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "vue/references/testing.md",
+          "line": 13,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.92
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.423Z",
+        "lastSeen": "2026-02-01T19:21:42.345Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "describe-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:42.345Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "087872264dc2ea63",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/class_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.945,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "vueuse/composables/use-cached.md",
+          "line": 14,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.945
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.423Z",
+        "lastSeen": "2026-02-01T19:21:42.450Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:42.450Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "68674dd3d05810b8",
+      "subcategory": "fixture-patterns",
+      "name": "Fixture Patterns Detector",
+      "description": "Learns test fixture patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/fixture-patterns",
+          "patternId": "testing/fixture-patterns/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.61,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 28,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 302,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 194,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 231,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 266,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 353,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 389,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 423,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 581,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.773125
+        },
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 433,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 80,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 80,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 95,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 166,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 166,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 285,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 404,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 48,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 9,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 145,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.72
+        },
+        {
+          "file": "nuxt-better-auth/references/installation.md",
+          "line": 105,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 16,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 34,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 47,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 60,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 74,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 88,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 249,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 274,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 278,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 92,
+          "column": 1,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 87,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 93,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 130,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 160,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 26,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 171,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 277,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 321,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 321,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 562,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.732
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 20,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 20,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 252,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxthub/references/wrangler-templates.md",
+          "line": 84,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxthub/references/wrangler-templates.md",
+          "line": 128,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxthub/references/wrangler-templates.md",
+          "line": 128,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxthub/references/wrangler-templates.md",
+          "line": 154,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 109,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 110,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 111,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 101,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 157,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vueuse/composables/create-unref-fn.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/ref-debounced.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-axios.md",
+          "line": 24,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-drop-zone.md",
+          "line": 24,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-fuse.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-idbkeyval.md",
+          "line": 14,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-infinite-scroll.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-vmodel.md",
+          "line": 18,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.388Z",
+        "lastSeen": "2026-02-01T19:17:39.389Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "fixture-patterns"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "fb29bece8928eee6",
+      "subcategory": "test-file-naming",
+      "name": "Test File Naming Detector",
+      "description": "Learns test file naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-file-naming",
+          "patternId": "testing/test-file-naming/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.3,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 5,
+        "score": 0.8533333333333333,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.7561111111111111
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.7561111111111111
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7680769230769231
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 27,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 28,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 29,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 289,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 289,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 68,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 189,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.420Z",
+        "lastSeen": "2026-02-01T19:17:39.420Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-file-naming"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "ec5d0b48b039be45",
+      "subcategory": "test-file-naming",
+      "name": "Test File Naming Detector",
+      "description": "Learns test file naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-file-naming",
+          "patternId": "testing/test-file-naming/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.26,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 6,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 31,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 60,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 16,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7561111111111111
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 21,
+          "column": 28,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 164,
+          "column": 47,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 188,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 272,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 49,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 49,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.415Z",
+        "lastSeen": "2026-02-01T19:17:39.415Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-file-naming"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "cda286a05b2283ac",
+      "subcategory": "test-co-location",
+      "name": "Test Co-Location Detector",
+      "description": "Learns test co-location patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "testing/test-co-location",
+          "patternId": "testing/test-co-location/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.3,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 5,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 46,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.75125
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 62,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/SKILL.md",
+          "line": 227,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7915686274509803
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 27,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 28,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 29,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 289,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 289,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.8278125
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 68,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 189,
+          "column": 25,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "High confidence outlier"
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.420Z",
+        "lastSeen": "2026-02-01T19:17:39.420Z",
+        "source": "auto-detected",
+        "tags": [
+          "testing",
+          "test-co-location"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T19:21:57.412Z",
+  "checksum": "210f9dc329551c1a"
+}

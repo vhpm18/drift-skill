@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "project": {
+    "id": "e889a1e0-79f6-4474-bd32-fbbcb3ef1eb3",
+    "name": "laravel-api",
+    "initializedAt": "2026-02-01T18:15:04.841Z"
+  },
+  "severity": {},
+  "ignore": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**",
+    "coverage/**",
+    "*.min.js",
+    "*.bundle.js",
+    "vendor/**",
+    "__pycache__/**",
+    ".venv/**",
+    "target/**",
+    "bin/**",
+    "obj/**"
+  ],
+  "ci": {
+    "failOn": "error",
+    "reportFormat": "text"
+  },
+  "learning": {
+    "autoApproveThreshold": 0.85,
+    "minOccurrences": 3,
+    "semanticLearning": true
+  },
+  "performance": {
+    "maxWorkers": 4,
+    "cacheEnabled": true,
+    "incrementalAnalysis": true,
+    "cacheTTL": 3600
+  },
+  "features": {
+    "callGraph": true,
+    "boundaries": true,
+    "dna": true,
+    "contracts": true
+  }
+}

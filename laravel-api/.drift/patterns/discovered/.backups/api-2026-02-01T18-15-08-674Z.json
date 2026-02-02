@@ -1,0 +1,173 @@
+{
+  "version": "1.0.0",
+  "category": "api",
+  "patterns": [
+    {
+      "id": "098cfcdc04055a7c",
+      "subcategory": "laravel",
+      "name": "Laravel API Patterns Detector",
+      "description": "Learns API patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/laravel-api-semantic",
+          "patternId": "api/laravel-api-semantic/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 0.21,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 5,
+        "score": 0.7,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Action.php",
+          "line": 5,
+          "column": 24
+        },
+        {
+          "file": "assets/templates/Action.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 5,
+          "column": 20
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 12,
+          "column": 23
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 5,
+          "column": 33
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 18,
+          "column": 51
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 18,
+          "column": 31
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 18,
+          "column": 41
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 21,
+          "column": 23
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 5,
+          "column": 43
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 5,
+          "column": 30
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 5,
+          "column": 20
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 10,
+          "column": 14
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 10,
+          "column": 31
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 5,
+          "column": 40
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 5,
+          "column": 30
+        },
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 5,
+          "column": 1
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "5b490b90814ef1ba",
+      "subcategory": "laravel",
+      "name": "Laravel API Patterns Detector",
+      "description": "Learns API patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/laravel-api-semantic",
+          "patternId": "api/laravel-api-semantic/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.7866666666666666,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 24,
+          "column": 20
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.627Z",
+  "checksum": "d1bf64720a47938f"
+}

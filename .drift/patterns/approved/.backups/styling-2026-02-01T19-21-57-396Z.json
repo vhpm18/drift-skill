@@ -1,0 +1,3743 @@
+{
+  "version": "1.0.0",
+  "category": "styling",
+  "patterns": [
+    {
+      "id": "e90e4a5aa476914f",
+      "subcategory": "tailwind-patterns",
+      "name": "Tailwind Patterns Detector",
+      "description": "Learns Tailwind CSS patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/tailwind-patterns",
+          "patternId": "styling/tailwind-patterns/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.19,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 7,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 90,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 38,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 39,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 40,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 76,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 103,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 104,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 116,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 117,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 536,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 537,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "reka-ui/components/calendar.md",
+          "line": 3,
+          "column": 16,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "High confidence outlier"
+        },
+        {
+          "file": "reka-ui/components.md",
+          "line": 28,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "reka-ui/references/components.md",
+          "line": 28,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 39,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.76
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.411Z",
+        "lastSeen": "2026-02-01T19:21:28.963Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "tailwind-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:28.963Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "27a8a6f795422dfc",
+      "subcategory": "tailwind-patterns",
+      "name": "Tailwind Patterns Detector",
+      "description": "Learns Tailwind CSS patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/tailwind-patterns",
+          "patternId": "styling/tailwind-patterns/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.11,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 6,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/server.md",
+          "line": 376,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 248,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 437,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 99,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 99,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 44,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 184,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 199,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 220,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 236,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-text-selection.md",
+          "line": 18,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.416Z",
+        "lastSeen": "2026-02-01T19:21:29.073Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "tailwind-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.073Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "301ebfb3b1ef87a4",
+      "subcategory": "typography",
+      "name": "Typography Detector",
+      "description": "Learns typography patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/typography",
+          "patternId": "styling/typography/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.14,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 246,
+          "column": 71,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 81,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 85,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7815384615384615
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 93,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7815384615384615
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 95,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.7815384615384615
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 97,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.7815384615384615
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 99,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7815384615384615
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.419Z",
+        "lastSeen": "2026-02-01T19:21:29.180Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "typography"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.180Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "079d6fa10c4397e1",
+      "subcategory": "responsive",
+      "name": "Responsive Detector",
+      "description": "Learns responsive design patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/responsive",
+          "patternId": "styling/responsive/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.11,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 47,
+          "column": 116,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "vue/references/router.md",
+          "line": 81,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-display-media.md",
+          "line": 37,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-display-media.md",
+          "line": 37,
+          "column": 93,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-display-media.md",
+          "line": 38,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-display-media.md",
+          "line": 38,
+          "column": 93,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.374Z",
+        "lastSeen": "2026-02-01T19:21:29.314Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "responsive"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.314Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "51f985f0ad2926ba",
+      "subcategory": "color-usage",
+      "name": "Color Usage Detector",
+      "description": "Learns color usage patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/color-usage",
+          "patternId": "styling/color-usage/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.24,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 6,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 131,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "laravel-api/references/code-examples.md",
+          "line": 24,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 183,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 27,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 147,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 152,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 154,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-css-var.md",
+          "line": 15,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-css-var.md",
+          "line": 15,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-css-var.md",
+          "line": 19,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-css-var.md",
+          "line": 22,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-css-var.md",
+          "line": 22,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.388Z",
+        "lastSeen": "2026-02-01T19:21:29.419Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "color-usage"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.419Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "61453cdeea0ce5ce",
+      "subcategory": "class-naming",
+      "name": "Class Naming Detector",
+      "description": "Learns class naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/class-naming",
+          "patternId": "styling/class-naming/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.12,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 5,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/references/architecture.md",
+          "line": 157,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.9199999999999999
+        },
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 54,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 32,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 208,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.7075
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 208,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.7075
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 61,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.400Z",
+        "lastSeen": "2026-02-01T19:21:29.582Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "class-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.582Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "9663ce93a691893b",
+      "subcategory": "design-tokens",
+      "name": "Design Tokens Detector",
+      "description": "Learns design token patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/design-tokens",
+          "patternId": "styling/design-tokens/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.53,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 16,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 274,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/nuxt-composables.md",
+          "line": 247,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 181,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7546153846153846
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 95,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 27,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 186,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 309,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 309,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 133,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 144,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 148,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 156,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 260,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 157,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 159,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 57,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 65,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 84,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 102,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 141,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 184,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 26,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/site-config.md",
+          "line": 23,
+          "column": 58,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 94,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 109,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vue/references/router.md",
+          "line": 164,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 59,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 168,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 171,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.407Z",
+        "lastSeen": "2026-02-01T19:21:29.686Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "design-tokens"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.686Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "76f91dbdfe00395e",
+      "subcategory": "class-naming",
+      "name": "Class Naming Detector",
+      "description": "Learns class naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/class-naming",
+          "patternId": "styling/class-naming/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.12,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 4,
+        "score": 0.9288235294117646,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 259,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.9288235294117646
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 47,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 55,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 362,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 362,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-seo/SKILL.md",
+          "line": 64,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.407Z",
+        "lastSeen": "2026-02-01T19:21:29.794Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "class-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.794Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "1e31c7343f88e612",
+      "subcategory": "class-naming",
+      "name": "Class Naming Detector",
+      "description": "Learns class naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/class-naming",
+          "patternId": "styling/class-naming/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 30,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/references/code-quality.md",
+          "line": 263,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9288235294117646
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 94,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 94,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 32,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 32,
+          "column": 69,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 216,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 14,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 77,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 161,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 263,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 306,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 306,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/routing.md",
+          "line": 72,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 117,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.9116666666666666
+        },
+        {
+          "file": "nuxt-better-auth/references/client-only.md",
+          "line": 11,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 8,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-better-auth/references/installation.md",
+          "line": 20,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/installation.md",
+          "line": 104,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 133,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 323,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 30,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 135,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 136,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 214,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 166,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 21,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 28,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 50,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 220,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 220,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 229,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 238,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 239,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 311,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 316,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 347,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 347,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 347,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 22,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.7075
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 29,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7075
+        },
+        {
+          "file": "nuxt-seo/SKILL.md",
+          "line": 118,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 62,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 63,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 64,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 42,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 60,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 516,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 110,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 111,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 141,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 184,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 237,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 238,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 80,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "reka-ui/SKILL.md",
+          "line": 221,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 175,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/router.md",
+          "line": 156,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vue/references/typescript.md",
+          "line": 62,
+          "column": 4,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 36,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 62,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 233,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/on-long-press.md",
+          "line": 39,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/on-long-press.md",
+          "line": 43,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-animate.md",
+          "line": 39,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-confirm-dialog.md",
+          "line": 25,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-draggable.md",
+          "line": 24,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vueuse/composables/use-draggable.md",
+          "line": 24,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vueuse/composables/use-draggable.md",
+          "line": 24,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vueuse/composables/use-textarea-autosize.md",
+          "line": 21,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.407Z",
+        "lastSeen": "2026-02-01T19:21:29.933Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "class-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:29.933Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "a8e83d11e97d2cab",
+      "subcategory": "class-naming",
+      "name": "Class Naming Detector",
+      "description": "Learns class naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/class-naming",
+          "patternId": "styling/class-naming/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.38,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 8,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 49,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 49,
+          "column": 35,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt/references/middleware-plugins.md",
+          "line": 120,
+          "column": 39,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 219,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 240,
+          "column": 40,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-better-auth/references/types.md",
+          "line": 5,
+          "column": 23,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-better-auth/references/types.md",
+          "line": 45,
+          "column": 63,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 76,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 3,
+          "column": 250,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 29,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 29,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 29,
+          "column": 66,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 133,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 260,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 284,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 326,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 326,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 26,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.7075
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.409Z",
+        "lastSeen": "2026-02-01T19:21:30.055Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "class-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.055Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "63d7fd0b0d5483f5",
+      "subcategory": "design-tokens",
+      "name": "Design Tokens Detector",
+      "description": "Learns design token patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/design-tokens",
+          "patternId": "styling/design-tokens/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.08,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/middleware-plugins.md",
+          "line": 252,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/middleware-plugins.md",
+          "line": 255,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 192,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.7546153846153846
+        },
+        {
+          "file": "vueuse/composables/use-storage-async.md",
+          "line": 13,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.411Z",
+        "lastSeen": "2026-02-01T19:21:30.206Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "design-tokens"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.206Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "418bfb174cd7eb1b",
+      "subcategory": "responsive",
+      "name": "Responsive Detector",
+      "description": "Learns responsive design patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/responsive",
+          "patternId": "styling/responsive/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.56,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 10,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 99,
+          "column": 65,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 155,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-better-auth/references/plugins.md",
+          "line": 138,
+          "column": 70,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/plugins.md",
+          "line": 138,
+          "column": 80,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 31,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 259,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8922222222222222
+        },
+        {
+          "file": "nuxt-seo/SKILL.md",
+          "line": 45,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.9381818181818182
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 163,
+          "column": 75,
+          "isOutlier": true,
+          "confidence": 0.7366666666666666,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "nuxt-seo/references/utilities.md",
+          "line": 163,
+          "column": 91,
+          "isOutlier": true,
+          "confidence": 0.7366666666666666,
+          "outlierReason": "Low confidence outlier"
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 25,
+          "column": 54,
+          "isOutlier": false,
+          "confidence": 0.931111111111111
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 28,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "vueuse/composables/use-breakpoints.md",
+          "line": 11,
+          "column": 10,
+          "isOutlier": false,
+          "confidence": 0.745
+        },
+        {
+          "file": "vueuse/composables/use-breakpoints.md",
+          "line": 25,
+          "column": 125,
+          "isOutlier": false,
+          "confidence": 0.745
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 11,
+          "column": 110,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 11,
+          "column": 149,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 33,
+          "column": 96,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 33,
+          "column": 124,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 45,
+          "column": 111,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 45,
+          "column": 148,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 58,
+          "column": 108,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 58,
+          "column": 142,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 75,
+          "column": 99,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 75,
+          "column": 123,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 77,
+          "column": 119,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 77,
+          "column": 163,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 78,
+          "column": 109,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 78,
+          "column": 143,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 80,
+          "column": 111,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 80,
+          "column": 147,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 81,
+          "column": 121,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 81,
+          "column": 167,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 128,
+          "column": 120,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 128,
+          "column": 158,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 169,
+          "column": 117,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 169,
+          "column": 161,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 177,
+          "column": 106,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 177,
+          "column": 139,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 197,
+          "column": 114,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 197,
+          "column": 154,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 225,
+          "column": 103,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 225,
+          "column": 136,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 226,
+          "column": 103,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 226,
+          "column": 136,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 264,
+          "column": 100,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 264,
+          "column": 129,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 265,
+          "column": 108,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 265,
+          "column": 145,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 269,
+          "column": 105,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 269,
+          "column": 139,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 324,
+          "column": 100,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 324,
+          "column": 130,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 336,
+          "column": 106,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        },
+        {
+          "file": "vueuse/references/composables.md",
+          "line": 336,
+          "column": 142,
+          "isOutlier": false,
+          "confidence": 0.9229203539823008
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.412Z",
+        "lastSeen": "2026-02-01T19:21:30.326Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "responsive"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.326Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "7aa50ad69a44c8f5",
+      "subcategory": "design-tokens",
+      "name": "Design Tokens Detector",
+      "description": "Learns design token patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/design-tokens",
+          "patternId": "styling/design-tokens/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.18,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 7,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 120,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.7546153846153846
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 188,
+          "column": 8,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt/references/server.md",
+          "line": 196,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 52,
+          "column": 46,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt-seo/references/site-config.md",
+          "line": 49,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 32,
+          "column": 6,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 32,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-date-format.md",
+          "line": 27,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-date-format.md",
+          "line": 27,
+          "column": 126,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-network.md",
+          "line": 3,
+          "column": 373,
+          "isOutlier": true,
+          "confidence": 0.97,
+          "outlierReason": "Value above IQR upper bound"
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.414Z",
+        "lastSeen": "2026-02-01T19:21:30.449Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "design-tokens"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.449Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "f593982e174a0274",
+      "subcategory": "class-naming",
+      "name": "Class Naming Detector",
+      "description": "Learns class naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/class-naming",
+          "patternId": "styling/class-naming/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.24,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 8,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 277,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8427272727272728
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 81,
+          "column": 30,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 246,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 27,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 39,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 39,
+          "column": 72,
+          "isOutlier": false,
+          "confidence": 0.8144444444444444
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 330,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.7755555555555556
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 3,
+          "column": 303,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-confirm-dialog.md",
+          "line": 24,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 129,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-focus-within.md",
+          "line": 3,
+          "column": 118,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-style-tag.md",
+          "line": 21,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.9199999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.414Z",
+        "lastSeen": "2026-02-01T19:21:30.587Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "class-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.587Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "10e5dccd6976db17",
+      "subcategory": "tailwind-patterns",
+      "name": "Tailwind Patterns Detector",
+      "description": "Learns Tailwind CSS patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/tailwind-patterns",
+          "patternId": "styling/tailwind-patterns/conditional"
+        }
+      },
+      "confidence": {
+        "frequency": 0.06,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 4,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 246,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 246,
+          "column": 71,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 62,
+          "column": 71,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 62,
+          "column": 117,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 81,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vueuse/composables/use-confirm-dialog.md",
+          "line": 24,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.419Z",
+        "lastSeen": "2026-02-01T19:21:30.702Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "tailwind-patterns"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.702Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "74b6af52ce0c0e21",
+      "subcategory": "class-naming",
+      "name": "Class Naming Detector",
+      "description": "Learns class naming patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/class-naming",
+          "patternId": "styling/class-naming/class_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.06,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.9255555555555556,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 10,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.9255555555555556
+        },
+        {
+          "file": "nuxt-modules/references/development.md",
+          "line": 228,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.9255555555555556
+        },
+        {
+          "file": "nuxt-modules/references/testing-and-publishing.md",
+          "line": 136,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.8575
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.420Z",
+        "lastSeen": "2026-02-01T19:21:30.846Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "class-naming"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.846Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "920876d1535b2d9f",
+      "subcategory": "z-index-scale",
+      "name": "Z-Index Scale Detector",
+      "description": "Learns z-index scale patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/z-index-scale",
+          "patternId": "styling/z-index-scale/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxthub/references/wrangler-templates.md",
+          "line": 18,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.420Z",
+        "lastSeen": "2026-02-01T19:21:30.950Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "z-index-scale"
+        ],
+        "approvedAt": "2026-02-01T19:21:30.950Z"
+      },
+      "severity": "info",
+      "autoFixable": false
+    },
+    {
+      "id": "5f0cf02ee86a77b0",
+      "subcategory": "typography",
+      "name": "Typography Detector",
+      "description": "Learns typography patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/typography",
+          "patternId": "styling/typography/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 0.26,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 7,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/server.md",
+          "line": 376,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 248,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxthub/SKILL.md",
+          "line": 437,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 99,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.9325
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 99,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.9325
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 44,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 184,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 199,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 220,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/testing.md",
+          "line": 236,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vueuse/composables/use-image.md",
+          "line": 37,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-image.md",
+          "line": 37,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-text-selection.md",
+          "line": 18,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.416Z",
+        "lastSeen": "2026-02-01T19:17:39.416Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "typography"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "d70e3c21ccbc1958",
+      "subcategory": "typography",
+      "name": "Typography Detector",
+      "description": "Learns typography patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/typography",
+          "patternId": "styling/typography/assignment"
+        }
+      },
+      "confidence": {
+        "frequency": 0.38,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 12,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 67,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "nuxt/references/nuxt-components.md",
+          "line": 66,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.76
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 47,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-seo/references/og-image.md",
+          "line": 104,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "reka-ui/components/splitter.md",
+          "line": 55,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 142,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.9325
+        },
+        {
+          "file": "vue/references/components.md",
+          "line": 323,
+          "column": 19,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "vue/references/utils-client.md",
+          "line": 87,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.7366666666666666
+        },
+        {
+          "file": "vueuse/composables/use-base64.md",
+          "line": 14,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-element-size.md",
+          "line": 21,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vueuse/composables/use-element-size.md",
+          "line": 21,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "vueuse/composables/use-resize-observer.md",
+          "line": 16,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-resize-observer.md",
+          "line": 21,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-resize-observer.md",
+          "line": 21,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-share.md",
+          "line": 18,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/composables/use-window-size.md",
+          "line": 20,
+          "column": 5,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/composables/use-window-size.md",
+          "line": 20,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 67,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7815384615384615
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 80,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.7815384615384615
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.411Z",
+        "lastSeen": "2026-02-01T19:17:39.411Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "typography"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "a9dab46d8adef6b2",
+      "subcategory": "responsive",
+      "name": "Responsive Detector",
+      "description": "Learns responsive design patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/responsive",
+          "patternId": "styling/responsive/property_access"
+        }
+      },
+      "confidence": {
+        "frequency": 1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 29,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "DRIFT_INTEGRATION.md",
+          "line": 59,
+          "column": 91,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "DRIFT_INTEGRATION.md",
+          "line": 150,
+          "column": 62,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "README.md",
+          "line": 9,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 22,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 28,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 29,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 30,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 31,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 37,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 38,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 38,
+          "column": 184,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 39,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 40,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 41,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 49,
+          "column": 87,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 96,
+          "column": 11,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 98,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 99,
+          "column": 16,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 107,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 109,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 148,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 150,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 207,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 216,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 216,
+          "column": 48,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "README.md",
+          "line": 240,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.9430769230769231
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 434,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 435,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "laravel-api/SKILL.md",
+          "line": 436,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 57,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 58,
+          "column": 64,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 59,
+          "column": 71,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 60,
+          "column": 78,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 61,
+          "column": 80,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 62,
+          "column": 59,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 184,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 185,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 186,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 187,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 188,
+          "column": 31,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 189,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/SKILL.md",
+          "line": 190,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/nuxt-composables.md",
+          "line": 299,
+          "column": 60,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/project-setup.md",
+          "line": 47,
+          "column": 65,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 170,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 171,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 172,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 173,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 174,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 175,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 176,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 177,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 183,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 184,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 185,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 186,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 187,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 188,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 189,
+          "column": 52,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/SKILL.md",
+          "line": 190,
+          "column": 41,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/installation.md",
+          "line": 112,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/installation.md",
+          "line": 112,
+          "column": 39,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/installation.md",
+          "line": 127,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/installation.md",
+          "line": 127,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 115,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 195,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 196,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 197,
+          "column": 25,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 197,
+          "column": 48,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 198,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 199,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 205,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 206,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 207,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 207,
+          "column": 51,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 208,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/SKILL.md",
+          "line": 209,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.8876470588235293
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 18,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 89,
+          "column": 20,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 92,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 92,
+          "column": 42,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 96,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 97,
+          "column": 45,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 130,
+          "column": 23,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 140,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 183,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 233,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 247,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 273,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 284,
+          "column": 17,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 321,
+          "column": 22,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 298,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 129,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 149,
+          "column": 27,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 150,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 151,
+          "column": 28,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 157,
+          "column": 55,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 158,
+          "column": 63,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/SKILL.md",
+          "line": 159,
+          "column": 53,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 136,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.362Z",
+        "lastSeen": "2026-02-01T19:17:39.362Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "responsive"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "8b6b525801ed2f05",
+      "subcategory": "design-tokens",
+      "name": "Design Tokens Detector",
+      "description": "Learns design token patterns from your codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "styling/design-tokens",
+          "patternId": "styling/design-tokens/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.49,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 15,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "README.md",
+          "line": 31,
+          "column": 164,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt/references/nuxt-config.md",
+          "line": 219,
+          "column": 50,
+          "isOutlier": false,
+          "confidence": 0.7546153846153846
+        },
+        {
+          "file": "nuxt/references/routing.md",
+          "line": 204,
+          "column": 26,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 57,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt-better-auth/references/database.md",
+          "line": 30,
+          "column": 103,
+          "isOutlier": false,
+          "confidence": 0.77
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 316,
+          "column": 49,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/collections.md",
+          "line": 323,
+          "column": 12,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 346,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "nuxt-content/references/config.md",
+          "line": 346,
+          "column": 61,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "nuxt-content/references/rendering.md",
+          "line": 261,
+          "column": 13,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "nuxt-content/references/studio.md",
+          "line": 266,
+          "column": 15,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 144,
+          "column": 57,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-modules/references/ci-workflows.md",
+          "line": 144,
+          "column": 86,
+          "isOutlier": false,
+          "confidence": 0.8353846153846154
+        },
+        {
+          "file": "nuxt-seo/references/schema-org.md",
+          "line": 105,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.97
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 98,
+          "column": 37,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 191,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "nuxthub/references/providers.md",
+          "line": 310,
+          "column": 33,
+          "isOutlier": false,
+          "confidence": 0.87
+        },
+        {
+          "file": "vue/references/composables.md",
+          "line": 130,
+          "column": 29,
+          "isOutlier": false,
+          "confidence": 0.8825
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 3,
+          "column": 215,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 20,
+          "column": 80,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 30,
+          "column": 40,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/SKILL.md",
+          "line": 170,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.82
+        },
+        {
+          "file": "vueuse/composables/use-css-var.md",
+          "line": 29,
+          "column": 67,
+          "isOutlier": false,
+          "confidence": 0.7949999999999999
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 190,
+          "column": 36,
+          "isOutlier": false,
+          "confidence": 0.97
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.374Z",
+        "lastSeen": "2026-02-01T19:17:39.374Z",
+        "source": "auto-detected",
+        "tags": [
+          "styling",
+          "design-tokens"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T19:21:57.279Z",
+  "checksum": "30514847c3121f20"
+}

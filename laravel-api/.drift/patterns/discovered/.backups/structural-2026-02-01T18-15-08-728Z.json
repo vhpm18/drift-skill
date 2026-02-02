@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "category": "structural",
+  "patterns": [
+    {
+      "id": "a084ff8448ca2ba9",
+      "subcategory": "laravel",
+      "name": "Laravel Structural Patterns Detector",
+      "description": "Learns structural and DI patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "structural/laravel-structural-semantic",
+          "patternId": "structural/laravel-structural-semantic/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 0.15,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 5,
+        "score": 0.77,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Action.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/Action.php",
+          "line": 5,
+          "column": 11
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 5,
+          "column": 11
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 10,
+          "column": 23
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 5,
+          "column": 11
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 11,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/Model.php",
+          "line": 5,
+          "column": 11
+        },
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 5,
+          "column": 11
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.698Z",
+  "checksum": "f8e22611b1c8bb20"
+}

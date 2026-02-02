@@ -1,0 +1,309 @@
+{
+  "version": "1.0.0",
+  "category": "api",
+  "patterns": [
+    {
+      "id": "54376a9cd6d65b3b",
+      "subcategory": "laravel",
+      "name": "Laravel API Patterns Detector",
+      "description": "Learns API patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/laravel-api-semantic",
+          "patternId": "api/laravel-api-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.16,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 4,
+        "score": 0.8999999999999999,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/assets/templates/Action.php",
+          "line": 7,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.8533333333333333
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 7,
+          "column": 18,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 8,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 9,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 9,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 10,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 8,
+          "column": 14,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 8,
+          "column": 38,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 8,
+          "column": 34,
+          "isOutlier": false,
+          "confidence": 0.7866666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/FormRequest.php",
+          "line": 7,
+          "column": 24,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "laravel-api/assets/templates/FormRequest.php",
+          "line": 8,
+          "column": 32,
+          "isOutlier": false,
+          "confidence": 0.83
+        },
+        {
+          "file": "laravel-api/assets/templates/Model.php",
+          "line": 7,
+          "column": 43,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "laravel-api/assets/templates/Model.php",
+          "line": 8,
+          "column": 44,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "laravel-api/assets/templates/Model.php",
+          "line": 13,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        },
+        {
+          "file": "laravel-api/assets/templates/Model.php",
+          "line": 14,
+          "column": 9,
+          "isOutlier": false,
+          "confidence": 0.8999999999999999
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.397Z",
+        "lastSeen": "2026-02-01T19:17:39.398Z",
+        "source": "auto-detected",
+        "tags": [
+          "api",
+          "laravel"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "caa5e3ab6e516498",
+      "subcategory": "laravel",
+      "name": "Laravel API Patterns Detector",
+      "description": "Learns API patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/laravel-api-semantic",
+          "patternId": "api/laravel-api-semantic/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.04,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "laravel-api/assets/templates/Controller.php",
+          "line": 18,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.9366666666666666
+        },
+        {
+          "file": "laravel-api/assets/templates/FormRequest.php",
+          "line": 17,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.98
+        },
+        {
+          "file": "laravel-api/assets/templates/FormRequest.php",
+          "line": 12,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 0.98
+        },
+        {
+          "file": "laravel-api/assets/templates/Payload.php",
+          "line": 13,
+          "column": 21,
+          "isOutlier": false,
+          "confidence": 1
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.398Z",
+        "lastSeen": "2026-02-01T19:17:39.398Z",
+        "source": "auto-detected",
+        "tags": [
+          "api",
+          "laravel"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "7238cae8a4f75ddc",
+      "subcategory": "response-envelope",
+      "name": "Response Envelope Detector",
+      "description": "Detects response envelope patterns and flags inconsistencies",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/response-envelope",
+          "patternId": "api/response-envelope/format-custom"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 98,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 1
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 264,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 1
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.421Z",
+        "lastSeen": "2026-02-01T19:17:39.421Z",
+        "source": "auto-detected",
+        "tags": [
+          "api",
+          "response-envelope"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "1b6c1d6b2236d76f",
+      "subcategory": "response-envelope",
+      "name": "Response Envelope Detector",
+      "description": "Detects response envelope patterns and flags inconsistencies",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "api/response-envelope",
+          "patternId": "api/response-envelope/envelope-structure"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "reka-ui/scripts/generate-components.ts",
+          "line": 98,
+          "column": 7,
+          "isOutlier": false,
+          "confidence": 1
+        },
+        {
+          "file": "vueuse/scripts/generate-composables.ts",
+          "line": 264,
+          "column": 3,
+          "isOutlier": false,
+          "confidence": 1
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T19:17:39.421Z",
+        "lastSeen": "2026-02-01T19:17:39.421Z",
+        "source": "auto-detected",
+        "tags": [
+          "api",
+          "response-envelope"
+        ]
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T19:21:57.397Z",
+  "checksum": "b70574de18d2406f"
+}

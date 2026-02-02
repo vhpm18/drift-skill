@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "category": "structural",
+  "patterns": [
+    {
+      "id": "51177bdf523b4821",
+      "subcategory": "laravel",
+      "name": "Laravel Structural Patterns Detector",
+      "description": "Learns structural and DI patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "structural/laravel-structural-semantic",
+          "patternId": "structural/laravel-structural-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.1,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 3,
+        "score": 0.8533333333333333,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Action.php",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "file": "assets/templates/Action.php",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 7,
+          "column": 5
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.305Z",
+        "approvedAt": "2026-02-01T18:15:08.305Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "a6c26d3c08e2a9c5",
+      "subcategory": "laravel",
+      "name": "Laravel Structural Patterns Detector",
+      "description": "Learns structural and DI patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "structural/laravel-structural-semantic",
+          "patternId": "structural/laravel-structural-semantic/function_definition"
+        }
+      },
+      "confidence": {
+        "frequency": 0.02,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.95,
+        "level": "high"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 14,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/Payload.php",
+          "line": 9,
+          "column": 21
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.323Z",
+        "approvedAt": "2026-02-01T18:15:08.323Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.684Z",
+  "checksum": "42bb5fbfc3f6a647"
+}

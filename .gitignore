@@ -1,0 +1,9 @@
+.drift/lake/
+.drift/cache/
+.drift/history/
+.drift/call-graph/
+.drift/patterns/discovered/
+.drift/patterns/ignored/
+.drift/patterns/variants/
+.drift/indexes/
+.drift/memory/

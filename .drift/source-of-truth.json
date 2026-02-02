@@ -1,0 +1,100 @@
+{
+  "version": "0.9.46",
+  "schemaVersion": "2.0.0",
+  "createdAt": "2026-02-01T18:56:31.703Z",
+  "updatedAt": "2026-02-01T18:56:31.745Z",
+  "project": {
+    "id": "99cfe13d-9172-4e02-889c-c3bb932e9e1e",
+    "name": "SKILL",
+    "rootPath": "/home/vhpm18/Escritorio/SKILL"
+  },
+  "baseline": {
+    "scanId": "55b79bf0",
+    "scannedAt": "2026-02-01T18:56:31.703Z",
+    "fileCount": 7,
+    "patternCount": 244,
+    "approvedCount": 109,
+    "categories": {
+      "data-access": 234,
+      "structural": 259,
+      "api": 46,
+      "performance": 60,
+      "security": 103,
+      "config": 87,
+      "auth": 10,
+      "errors": 86,
+      "components": 717,
+      "styling": 106,
+      "logging": 129,
+      "testing": 23,
+      "types": 381,
+      "accessibility": 25,
+      "documentation": 114
+    },
+    "checksum": "6870745f7691f9be"
+  },
+  "features": {
+    "callGraph": {
+      "enabled": true,
+      "builtAt": "2026-02-01T18:56:25.082Z",
+      "stats": {
+        "functions": 28,
+        "callSites": 212,
+        "resolvedCalls": 20,
+        "entryPoints": 28,
+        "dataAccessors": 11,
+        "filesProcessed": 7
+      }
+    },
+    "testTopology": {
+      "enabled": true,
+      "builtAt": "2026-02-01T18:56:25.152Z",
+      "stats": {
+        "totalTests": 0,
+        "testFiles": 0,
+        "filesAnalyzed": 7
+      }
+    },
+    "coupling": {
+      "enabled": true,
+      "builtAt": "2026-02-01T18:56:25.224Z",
+      "stats": {
+        "modules": 6,
+        "cycles": 0,
+        "hotspots": 0,
+        "healthScore": 100,
+        "filesAnalyzed": 7
+      }
+    },
+    "dna": {
+      "enabled": true,
+      "builtAt": "2026-02-01T18:56:25.250Z",
+      "stats": {
+        "genes": 10,
+        "mutations": 0,
+        "healthScore": 60,
+        "filesAnalyzed": 0,
+        "componentFiles": 0,
+        "backendFiles": 0
+      }
+    },
+    "memory": {
+      "enabled": true,
+      "builtAt": "2026-02-01T18:56:31.688Z",
+      "stats": {
+        "initialized": 1
+      }
+    }
+  },
+  "settings": {
+    "autoApproveThreshold": 0.85,
+    "autoApproveEnabled": true
+  },
+  "history": [
+    {
+      "action": "setup_complete",
+      "timestamp": "2026-02-01T18:56:31.703Z",
+      "details": "Initial setup: 244 patterns, 109 approved"
+    }
+  ]
+}

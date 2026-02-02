@@ -1,0 +1,203 @@
+{
+  "version": "1.0.0",
+  "category": "security",
+  "patterns": [
+    {
+      "id": "c1df178e103f449e",
+      "subcategory": "laravel",
+      "name": "Laravel Validation Patterns Detector",
+      "description": "Learns validation patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "validation/laravel-validation-semantic",
+          "patternId": "validation/laravel-validation-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.03,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.7949999999999999,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 9,
+          "column": 24
+        },
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 10,
+          "column": 21
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 8,
+          "column": 32
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "0688e68a1b3622b5",
+      "subcategory": "laravel",
+      "name": "Laravel Validation Patterns Detector",
+      "description": "Learns validation patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "validation/laravel-validation-semantic",
+          "patternId": "validation/laravel-validation-semantic/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 0.03,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 2,
+        "score": 0.595,
+        "level": "low"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 18,
+          "column": 51
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 10,
+          "column": 31
+        },
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 17,
+          "column": 30
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "1ecca3217d6ff3f9",
+      "subcategory": "laravel",
+      "name": "Laravel Validation Patterns Detector",
+      "description": "Learns validation patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "validation/laravel-validation-semantic",
+          "patternId": "validation/laravel-validation-semantic/function_call"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.7949999999999999,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/Controller.php",
+          "line": 24,
+          "column": 20
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "0f7fc47844c71d90",
+      "subcategory": "laravel",
+      "name": "Laravel Security Patterns Detector",
+      "description": "Learns security patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "security/laravel-security-semantic",
+          "patternId": "security/laravel-security-semantic/import"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.7366666666666666,
+        "level": "medium"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 8,
+          "column": 32
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    },
+    {
+      "id": "a29a7ca8bf17d2a8",
+      "subcategory": "laravel",
+      "name": "Laravel Security Patterns Detector",
+      "description": "Learns security patterns from your Laravel codebase",
+      "detector": {
+        "type": "regex",
+        "config": {
+          "detectorId": "security/laravel-security-semantic",
+          "patternId": "security/laravel-security-semantic/unknown"
+        }
+      },
+      "confidence": {
+        "frequency": 0.01,
+        "consistency": 0.9,
+        "age": 0,
+        "spread": 1,
+        "score": 0.5366666666666666,
+        "level": "low"
+      },
+      "locations": [
+        {
+          "file": "assets/templates/FormRequest.php",
+          "line": 10,
+          "column": 31
+        }
+      ],
+      "outliers": [],
+      "metadata": {
+        "firstSeen": "2026-02-01T18:15:08.253Z",
+        "lastSeen": "2026-02-01T18:15:08.253Z"
+      },
+      "severity": "warning",
+      "autoFixable": false
+    }
+  ],
+  "lastUpdated": "2026-02-01T18:15:08.580Z",
+  "checksum": "eb45135ef13a1369"
+}
